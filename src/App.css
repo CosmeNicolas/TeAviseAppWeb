@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300&display=swap');
+
+/* Fuente
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/* Colores 
+#FFBB5C
+#FFbd59
+#FF9B50
+#E25E3E
+#C63D2F
+
+ */
+
 #root {
  min-height: 100vh;
  display: flex;
@@ -6,4 +23,13 @@
 
 .main {
   flex-grow: 1;
+}
+
+body{
+  background-color: #FFbd59;
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  color: #821a0e;
 }
